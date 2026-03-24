@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Press - Isaak Liptzin{% endblock %}
+
+{% block content %}
+<section class="press-section">
+    <h1>Press</h1>
+    <div class="press-list">
+        {% for item in press_items %}
+        <div class="press-item">
+            <div class="press-meta">
+                <span class="press-outlet">{{ item.outlet }}</span>
+                <span class="press-year">{{ item.year }}</span>
+            </div>
+            <div class="press-content">
+                <a href="{{ item.url }}" target="_blank" rel="noopener" class="press-title">
+                    {{ item.title }}
+                </a>
+                <p class="press-desc">{{ item.description }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

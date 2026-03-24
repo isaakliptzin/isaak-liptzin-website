@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Isaak Liptzin - Cinematographer{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-left">
+            <h1>ISAAK<br/>LIPTZIN</h1>
+            <p class="subtitle">Cinematographer & Director</p>
+            <p class="cta"><a href="/work">View Work →</a></p>
+        </div>
+        <div class="hero-right">
+            <div class="reel-container">
+                <iframe src="https://player.vimeo.com/video/{{ reel_vimeo_id }}" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
