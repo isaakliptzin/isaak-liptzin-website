@@ -4,11 +4,6 @@ from app import app, PROJECTS, DOCUMENTARIES, NEWS_EVENTS
 freezer = Freezer(app)
 
 @freezer.register_generator
-def project():
-    for p in PROJECTS:
-        yield {'project_id': p['id']}
-
-@freezer.register_generator
 def documentary_detail():
     for p in DOCUMENTARIES:
         yield {'project_id': p['id']}
