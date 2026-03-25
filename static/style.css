@@ -330,7 +330,7 @@ main {
 /* Projects Grid */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     gap: 30px;
 }
 
@@ -370,6 +370,13 @@ main {
     margin-bottom: 8px;
     font-weight: 700;
     color: #000;
+}
+
+.project-meta {
+    font-size: 13px;
+    font-weight: 400;
+    color: #999;
+    margin-left: 6px;
 }
 
 .project-card p {
