@@ -8,7 +8,7 @@ app.config.update({
     'FREEZER_BASE_URL': 'https://isaakliptzin.com/'
 })
 # Reel - your main demo video
-REEL_VIMEO_ID = "76979871"  # Replace with your reel's Vimeo ID
+REEL_VIMEO_ID = "1176795939"
 
 # Sample projects data - easily editable
 PROJECTS = [
