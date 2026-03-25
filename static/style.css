@@ -156,12 +156,17 @@ main {
     width: 100%;
     aspect-ratio: 16/9;
     margin: 0;
-    background-color: #000;
+    overflow: hidden;
+    position: relative;
 }
 
 .reel-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    display: block;
 }
 
 .reel-caption {
