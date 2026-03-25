@@ -36,6 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -67,8 +68,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
+    width: 44px;
+    height: 44px;
 }
 
 .nav-icon svg {
@@ -115,7 +116,7 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding: 100px 20px 40px;
+    padding: clamp(40px, 8vh, 100px) 20px 40px;
 }
 
 .hero-container {
@@ -127,7 +128,7 @@ main {
 }
 
 .hero-container h1 {
-    font-size: 64px;
+    font-size: clamp(36px, 8vw, 72px);
     font-weight: 700;
     margin-bottom: 10px;
     color: #000000;
@@ -146,7 +147,7 @@ main {
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: clamp(16px, 3vw, 24px);
     color: #666;
     margin-bottom: 40px;
     font-weight: 300;
@@ -187,8 +188,10 @@ main {
     transition: all 0.3s;
     text-transform: uppercase;
     letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 30px;
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 30px;
+    min-height: 44px;
     border: 2px solid var(--accent);
     border-radius: 2px;
 }
@@ -205,7 +208,7 @@ main {
 }
 
 .work-section h1 {
-    font-size: 42px;
+    font-size: clamp(28px, 5vw, 48px);
     margin-bottom: 40px;
     font-weight: 700;
     letter-spacing: -1px;
@@ -221,7 +224,7 @@ main {
 }
 
 .about-section h1, .contact-section h1 {
-    font-size: 42px;
+    font-size: clamp(28px, 5vw, 48px);
     margin-bottom: 30px;
     font-weight: 700;
     letter-spacing: -1px;
@@ -237,7 +240,7 @@ main {
 }
 
 .about-content h2 {
-    font-size: 32px;
+    font-size: clamp(22px, 4vw, 32px);
     font-weight: 700;
     margin-bottom: 5px;
     letter-spacing: -0.5px;
@@ -401,7 +404,7 @@ main {
 }
 
 .project-detail h1 {
-    font-size: 42px;
+    font-size: clamp(28px, 5vw, 48px);
     margin: 20px 0 15px;
     font-weight: 700;
     letter-spacing: -1px;
@@ -472,7 +475,7 @@ footer {
 }
 
 .press-section h1 {
-    font-size: 42px;
+    font-size: clamp(28px, 5vw, 48px);
     margin-bottom: 40px;
     font-weight: 700;
     letter-spacing: -1px;
@@ -562,46 +565,91 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     .logo {
+        order: 1;
         font-size: 20px;
     }
 
     .nav-links {
+        order: 3;
+        width: 100%;
+        flex: 0 0 100%;
+        justify-content: center;
         gap: 20px;
         font-size: 12px;
-        flex: 0;
     }
 
     .nav-social {
-        gap: 15px;
+        order: 2;
+        margin-left: auto;
+        gap: 0;
+    }
+
+    .nav-container {
+        gap: 10px 20px;
     }
 
     .hero-container {
         flex-direction: column;
-        gap: 30px;
+        gap: 24px;
     }
 
     .hero-left {
-        flex: 0 0 280px;
+        flex: 0 0 auto;
+        width: 100%;
         text-align: left;
-    }
-
-    .hero-container h1 {
-        font-size: 64px;
-        font-weight: 700;
-        margin-bottom: 10px;
-        letter-spacing: 2px;
-        color: #000000;
-    }
-
-    .subtitle {
-        font-size: 18px;
-    }
-
-    .project-detail h1 {
-        font-size: 28px;
     }
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 12px 0;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+        letter-spacing: 0.3px;
+    }
+
+    .hero {
+        padding: 30px 16px 30px;
+    }
+
+    .hero-container {
+        gap: 20px;
+    }
+
+    .cta {
+        margin-top: 20px;
+    }
+
+    .press-item {
+        padding: 16px 0;
+    }
+
+    .press-title {
+        font-size: 16px;
+    }
+
+    .about-section,
+    .contact-section {
+        padding-top: 24px;
+    }
+
+    .about-content h3 {
+        font-size: 14px;
+        margin-bottom: 16px;
     }
 }
