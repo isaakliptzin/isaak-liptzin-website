@@ -5,7 +5,7 @@ app = Flask(__name__)
 FROZEN_CONFIG = {'FREEZER_DESTINATION': 'build'}
 app.config.update({
     'FREEZER_DESTINATION': 'build',
-    'FREEZER_BASE_URL': 'https://isaakliptzin.github.io/isaak-liptzin-website/',
+    'FREEZER_BASE_URL': 'https://isaakliptzin.com/'
 })
 # Reel - your main demo video
 REEL_VIMEO_ID = "76979871"  # Replace with your reel's Vimeo ID
