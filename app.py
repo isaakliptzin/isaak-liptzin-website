@@ -35,40 +35,46 @@ PROJECTS = [
 # Documentary projects
 DOCUMENTARIES = [
     {
-        "id": "doc2",
-        "title": "Stonebreakers",
-        "vimeo_id": "726198300",
-        "description": "2022 / 70' - In a year of uprisings and political unrest, Stonebreakers documents the ongoing fights around monuments in the United States and explores the shifting landscapes of the nation's historical memory."
-    },
-    {
         "id": "doc1",
         "title": "Elvira Notari: Beyond Silence",
+        "meta": "2025 / 90'",
         "vimeo_id": "1125241996",
-        "description": "2025 / 90' - Despite directing hundreds of silent films that captivated audiences from Naples to New York, Elvira Notari was relegated to the margins of film history for half a century. Her films, poised between realism and staged drama, were deeply rooted in Neapolitan folklore."
+        "description": "Between 1906 and 1930, Elvira Notari directed over 60 films from Naples — yet spent half a century erased from film history. This documentary recovers her legacy, tracing a singular voice working at the intersection of melodrama and Neapolitan street life."
+    },
+    {
+        "id": "doc2",
+        "title": "Stonebreakers",
+        "meta": "2022 / 70'",
+        "vimeo_id": "726198300",
+        "description": "Shot during and after the 2020 uprisings, Stonebreakers surveys the nationwide fight over monuments to Confederate leaders, Columbus, and other contested figures — examining how Americans on all sides negotiate historical memory and the legacies of slavery and colonialism."
     },
     {
         "id": "doc3",
         "title": "If Only I Were That Warrior",
+        "meta": "2015 / 72'",
         "vimeo_id": "84273170",
-        "description": "2015 / 72' - Chronicles the bloody Italian occupation of Ethiopia of 1935-1941 and examines its unresolved legacies in Italy, Ethiopia and the United States."
+        "description": "When an Italian village erected a monument to General Graziani — Mussolini's 'Butcher of Ethiopia' — it exposed a silence decades in the making. Following subjects across Italy, Ethiopia, and the U.S., the film examines a colonial past the country has never fully reckoned with."
     },
     {
         "id": "doc4",
         "title": "Mister Wonderland",
+        "meta": "2019 / 53'",
         "vimeo_id": "366785314",
-        "description": "2019 / 53' - The remarkable story of Sylvester Z. Poli, an Italian artisan who emigrated to the U.S. and became one of the greatest theater and cinema impresarios of his time."
+        "description": "Born near Lucca, Sylvester Z. Poli emigrated to America and built a theater empire spanning more than 30 venues across the Northeast, booking legends from Houdini to Mae West — tracing the unlikely arc from immigrant artisan to powerful showman."
     },
     {
         "id": "doc5",
         "title": "Iom Romì: A Day in Rome",
+        "meta": "2017 / 30'",
         "vimeo_id": "240669126",
-        "description": "2017 / 30' - Chronicles a day in the life of the contemporary Jewish community of Rome, tracing its origins back to the times of the Empire."
+        "description": "From dawn to dusk in Rome's ancient Ghetto, the film follows members of a community whose presence in the city stretches back to the age of the Empire — tracing what it means to be simultaneously Roman and Jewish today."
     },
     {
         "id": "doc6",
         "title": "Treasure - The Story of Marcus Hook",
+        "meta": "2013 / 20'",
         "vimeo_id": "152448505",
-        "description": "2013 / 20' - Chronicles the efforts of a community determined to survive the decline of the local refining industry through an unexpected discovery from the town's pirate past."
+        "description": "After the Sunoco refinery closed in 2011, Marcus Hook, Pennsylvania faced an uncertain future. The film follows a former refinery worker who unearthed what may be the home of Blackbeard's mistress — and channeled that discovery into a pirate festival that revived the town."
     }
 ]
 
@@ -231,7 +237,7 @@ def documentary_detail(project_id):
     project = next((p for p in DOCUMENTARIES if p['id'] == project_id), None)
     if not project:
         return "Not found", 404
-    return render_template('project.html', project=project, back_url=url_for('documentary'), back_label='Documentary')
+    return render_template('project.html', project=project, back_url=url_for('documentary'), back_label='Films')
 
 @app.route('/news-events/')
 def news_events():

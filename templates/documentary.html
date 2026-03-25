@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Documentary - Isaak Liptzin{% endblock %}
+{% block title %}Films - Isaak Liptzin{% endblock %}
 
 {% block content %}
 <section class="work-section">
-    <h1>Documentary</h1>
+    <h1>Films</h1>
     {% set featured = projects[0] %}
     <a href="/documentary/{{ featured.id }}/" class="project-card project-card--featured">
         <div class="project-thumbnail">
@@ -13,7 +13,7 @@
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowfullscreen></iframe>
         </div>
-        <h3>{{ featured.title }}</h3>
+        <h3>{{ featured.title }} <span class="project-meta">{{ featured.meta }}</span></h3>
         <p>{{ featured.description }}</p>
     </a>
     <div class="projects-grid">
@@ -25,7 +25,7 @@
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowfullscreen></iframe>
             </div>
-            <h3>{{ project.title }}</h3>
+            <h3>{{ project.title }} <span class="project-meta">{{ project.meta }}</span></h3>
             <p>{{ project.description }}</p>
         </a>
         {% endfor %}

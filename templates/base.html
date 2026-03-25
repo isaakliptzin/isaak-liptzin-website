@@ -13,7 +13,7 @@
                 <a href="{{ url_for('index') }}" class="logo">Isaak Liptzin</a>
                 <ul class="nav-links">
                     <li><a href="{{ url_for('index') }}" {% if request.endpoint == 'index' %}class="active"{% endif %}>Home</a></li>
-                    <li><a href="{{ url_for('documentary') }}" {% if request.endpoint == 'documentary' %}class="active"{% endif %}>Documentary</a></li>
+                    <li><a href="{{ url_for('documentary') }}" {% if request.endpoint == 'documentary' %}class="active"{% endif %}>Films</a></li>
                     <li><a href="{{ url_for('news_events') }}" {% if request.endpoint == 'news_events' %}class="active"{% endif %}>News & Events</a></li>
                     <li><a href="{{ url_for('press') }}" {% if request.endpoint == 'press' %}class="active"{% endif %}>Media</a></li>
                     <li><a href="{{ url_for('about') }}" {% if request.endpoint == 'about' %}class="active"{% endif %}>About</a></li>
