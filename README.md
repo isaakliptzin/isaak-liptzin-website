@@ -35,3 +35,5 @@ Edit the `PROJECTS` list in `app.py`. You'll need Vimeo video IDs:
 - **Colors & fonts**: Edit `static/style.css`
 - **Social links**: Update footer links in `templates/base.html`
 - **Email**: Update mailto link with your email
+
+
