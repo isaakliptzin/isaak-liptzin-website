@@ -35,16 +35,16 @@ PROJECTS = [
 # Documentary projects
 DOCUMENTARIES = [
     {
-        "id": "doc1",
-        "title": "Elvira Notari: Beyond Silence",
-        "vimeo_id": "1125241996",
-        "description": "2025 / 90' - Despite directing hundreds of silent films that captivated audiences from Naples to New York, Elvira Notari was relegated to the margins of film history for half a century. Her films, poised between realism and staged drama, were deeply rooted in Neapolitan folklore."
-    },
-    {
         "id": "doc2",
         "title": "Stonebreakers",
         "vimeo_id": "726198300",
         "description": "2022 / 70' - In a year of uprisings and political unrest, Stonebreakers documents the ongoing fights around monuments in the United States and explores the shifting landscapes of the nation's historical memory."
+    },
+    {
+        "id": "doc1",
+        "title": "Elvira Notari: Beyond Silence",
+        "vimeo_id": "1125241996",
+        "description": "2025 / 90' - Despite directing hundreds of silent films that captivated audiences from Naples to New York, Elvira Notari was relegated to the margins of film history for half a century. Her films, poised between realism and staged drama, were deeply rooted in Neapolitan folklore."
     },
     {
         "id": "doc3",
@@ -244,7 +244,7 @@ def news_event_detail(project_id):
         return "Not found", 404
     return render_template('project.html', project=project, back_url=url_for('news_events'), back_label='News & Events')
 
-@app.route('/press/')
+@app.route('/media/')
 def press():
     return render_template('press.html', press_items=PRESS_ITEMS)
 

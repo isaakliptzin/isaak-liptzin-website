@@ -5,12 +5,11 @@
 }
 
 :root {
-    --accent-pink: #FF1744;
-    --accent-blue: #0052CC;
+    --accent: #7B1034;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: 'Avenir', 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #ffffff;
     color: #1a1a1a;
     line-height: 1.6;
@@ -19,7 +18,7 @@ body {
 /* Header & Navigation */
 header {
     background-color: #ffffff;
-    border-bottom: 3px solid var(--accent-blue);
+    border-bottom: 3px solid var(--accent);
     padding: 20px 0;
     position: sticky;
     top: 0;
@@ -80,7 +79,7 @@ header {
 }
 
 .nav-icon:hover {
-    color: var(--accent-blue);
+    color: var(--accent);
 }
 
 .nav-links a {
@@ -94,12 +93,12 @@ header {
 }
 
 .nav-links a:hover {
-    color: var(--accent-blue);
+    color: var(--accent);
 }
 
 .nav-links a.active {
-    color: var(--accent-blue);
-    border-bottom: 2px solid var(--accent-blue);
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
     padding-bottom: 5px;
 }
 
@@ -107,17 +106,16 @@ header {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 0 20px;
     min-height: 60vh;
 }
 
 /* Hero Section (Homepage) */
 .hero {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    min-height: 100vh;
-    padding: 20px 20px;
+    padding: 100px 20px 40px;
 }
 
 .hero-container {
@@ -132,8 +130,9 @@ main {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 10px;
+    color: #000000;
     letter-spacing: 2px;
-    color: var(--accent-pink);
+    line-height: 1;
 }
 
 .hero-left {
@@ -165,13 +164,19 @@ main {
     height: 100%;
 }
 
+.reel-caption {
+    font-size: 12px;
+    color: #888;
+    margin-top: 8px;
+}
+
 .cta {
     margin-top: 30px;
 }
 
 .cta a {
     font-size: 16px;
-    color: var(--accent-blue);
+    color: var(--accent);
     text-decoration: none;
     font-weight: 700;
     transition: all 0.3s;
@@ -179,12 +184,12 @@ main {
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 30px;
-    border: 2px solid var(--accent-blue);
+    border: 2px solid var(--accent);
     border-radius: 2px;
 }
 
 .cta a:hover {
-    background-color: var(--accent-blue);
+    background-color: var(--accent);
     color: #fff;
     transform: translateY(-2px);
 }
@@ -199,7 +204,7 @@ main {
     margin-bottom: 40px;
     font-weight: 700;
     letter-spacing: -1px;
-    border-bottom: 3px solid var(--accent-pink);
+    border-bottom: 3px solid var(--accent);
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -215,7 +220,7 @@ main {
     margin-bottom: 30px;
     font-weight: 700;
     letter-spacing: -1px;
-    border-bottom: 3px solid var(--accent-blue);
+    border-bottom: 3px solid var(--accent);
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -231,13 +236,13 @@ main {
     font-weight: 700;
     margin-bottom: 5px;
     letter-spacing: -0.5px;
-    color: var(--accent-pink);
+    color: var(--accent);
 }
 
 .about-content h3 {
     font-size: 18px;
     font-weight: 500;
-    color: var(--accent-pink);
+    color: var(--accent);
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -258,7 +263,7 @@ main {
 }
 
 .contact-info a {
-    color: var(--accent-blue);
+    color: var(--accent);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
@@ -266,6 +271,52 @@ main {
 
 .contact-info a:hover {
     color: #000;
+}
+
+/* Featured project card */
+.project-card--featured {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: all 0.3s ease;
+}
+
+.project-card--featured:hover {
+    transform: translateY(-4px);
+}
+
+.project-card--featured:hover .project-thumbnail {
+    border-color: var(--accent);
+}
+
+.project-card--featured .project-thumbnail {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.project-card--featured .project-thumbnail iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.project-card--featured h3 {
+    font-size: 26px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #000;
+}
+
+.project-card--featured p {
+    color: #666;
+    font-size: 15px;
+    max-width: 700px;
 }
 
 /* Projects Grid */
@@ -288,7 +339,7 @@ main {
 }
 
 .project-card:hover .project-thumbnail {
-    border-color: var(--accent-pink);
+    border-color: var(--accent);
 }
 
 .project-thumbnail {
@@ -329,7 +380,7 @@ main {
 }
 
 .back-link {
-    color: var(--accent-pink);
+    color: var(--accent);
     text-decoration: none;
     font-size: 14px;
     margin-bottom: 30px;
@@ -373,7 +424,7 @@ main {
 /* Footer */
 footer {
     background-color: #f8f8f8;
-    border-top: 3px solid var(--accent-pink);
+    border-top: 3px solid var(--accent);
     padding: 40px 20px;
     margin-top: 60px;
 }
@@ -407,7 +458,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: var(--accent-blue);
+    color: var(--accent);
 }
 
 /* Press Section */
@@ -420,7 +471,7 @@ footer {
     margin-bottom: 40px;
     font-weight: 700;
     letter-spacing: -1px;
-    border-bottom: 3px solid var(--accent-blue);
+    border-bottom: 3px solid var(--accent);
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -455,7 +506,7 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.8px;
-    color: var(--accent-blue);
+    color: var(--accent);
 }
 
 .press-year {
@@ -480,7 +531,7 @@ footer {
 }
 
 .press-title:hover {
-    color: var(--accent-pink);
+    color: var(--accent);
 }
 
 .press-desc {
@@ -534,7 +585,7 @@ footer {
         font-weight: 700;
         margin-bottom: 10px;
         letter-spacing: 2px;
-        color: var(--accent-pink);
+        color: #000000;
     }
 
     .subtitle {
