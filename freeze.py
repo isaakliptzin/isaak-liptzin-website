@@ -1,5 +1,5 @@
 from flask_frozen import Freezer
-from app import app, PROJECTS, DOCUMENTARIES, NEWS_EVENTS
+from app import app, DOCUMENTARIES, NEWS_EVENTS
 
 freezer = Freezer(app)
 
@@ -14,4 +14,5 @@ def news_event_detail():
         yield {'project_id': p['id']}
 
 if __name__ == '__main__':
-    freezer.freeze()
+    with app.app_context():
+        freezer.freeze()
