@@ -18,7 +18,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install flask frozen-flask
+        run: pip install -r requirements.txt
 
       - name: Build static site
         run: python freeze.py

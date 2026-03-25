@@ -10,13 +10,13 @@
     <header>
         <nav class="navbar">
             <div class="nav-container">
-                <a href="/" class="logo">Isaak Liptzin</a>
+                <a href="{{ url_for('index') }}" class="logo">Isaak Liptzin</a>
                 <ul class="nav-links">
-                    <li><a href="/" {% if request.endpoint == 'index' %}class="active"{% endif %}>Home</a></li>
-                    <li><a href="/documentary" {% if request.endpoint == 'documentary' %}class="active"{% endif %}>Documentary</a></li>
-                    <li><a href="/news-events" {% if request.endpoint == 'news_events' %}class="active"{% endif %}>News & Events</a></li>
-                    <li><a href="/press" {% if request.endpoint == 'press' %}class="active"{% endif %}>Press</a></li>
-                    <li><a href="/about" {% if request.endpoint == 'about' %}class="active"{% endif %}>About</a></li>
+                    <li><a href="{{ url_for('index') }}" {% if request.endpoint == 'index' %}class="active"{% endif %}>Home</a></li>
+                    <li><a href="{{ url_for('documentary') }}" {% if request.endpoint == 'documentary' %}class="active"{% endif %}>Documentary</a></li>
+                    <li><a href="{{ url_for('news_events') }}" {% if request.endpoint == 'news_events' %}class="active"{% endif %}>News & Events</a></li>
+                    <li><a href="{{ url_for('press') }}" {% if request.endpoint == 'press' %}class="active"{% endif %}>Press</a></li>
+                    <li><a href="{{ url_for('about') }}" {% if request.endpoint == 'about' %}class="active"{% endif %}>About</a></li>
                 </ul>
                 <div class="nav-social">
                     <a href="mailto:contact@example.com" title="Email" class="nav-icon">

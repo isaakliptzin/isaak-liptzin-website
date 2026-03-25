@@ -1,11 +1,11 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
 FROZEN_CONFIG = {'FREEZER_DESTINATION': 'build'}
 app.config.update({
     'FREEZER_DESTINATION': 'build',
-    'FREEZER_BASE_URL': 'https://karissawhiting.com/isaak-liptzin-website/',
+    'FREEZER_BASE_URL': 'https://isaakliptzin.github.io/isaak-liptzin-website/',
 })
 # Reel - your main demo video
 REEL_VIMEO_ID = "76979871"  # Replace with your reel's Vimeo ID
@@ -231,7 +231,7 @@ def documentary_detail(project_id):
     project = next((p for p in DOCUMENTARIES if p['id'] == project_id), None)
     if not project:
         return "Not found", 404
-    return render_template('project.html', project=project, back_url='/documentary/', back_label='Documentary')
+    return render_template('project.html', project=project, back_url=url_for('documentary'), back_label='Documentary')
 
 @app.route('/news-events/')
 def news_events():
@@ -242,7 +242,7 @@ def news_event_detail(project_id):
     project = next((p for p in NEWS_EVENTS if p['id'] == project_id), None)
     if not project:
         return "Not found", 404
-    return render_template('project.html', project=project, back_url='/news-events/', back_label='News & Events')
+    return render_template('project.html', project=project, back_url=url_for('news_events'), back_label='News & Events')
 
 @app.route('/press/')
 def press():
