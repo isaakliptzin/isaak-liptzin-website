@@ -2,6 +2,9 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+FROZEN_CONFIG = {'FREEZER_DESTINATION': 'build'}
+app.config.update(FROZEN_CONFIG)
+
 # Reel - your main demo video
 REEL_VIMEO_ID = "76979871"  # Replace with your reel's Vimeo ID
 
@@ -81,8 +84,8 @@ NEWS_EVENTS = [
         "vimeo_id": "135837829",
         "description": "News/Event description"
     },
-        {
-        "id": "news2",
+    {
+        "id": "news3",
         "title": "The Battle For New York Series",
         "vimeo_id": "253910875",
         "description": "News/Event description"
@@ -212,34 +215,38 @@ PRESS_ITEMS = [
     }
 ]
 
+
 @app.route('/')
 def index():
     return render_template('index.html', reel_vimeo_id=REEL_VIMEO_ID)
 
-@app.route('/work')
-def work():
-    return render_template('work.html', projects=PROJECTS)
-
-@app.route('/documentary')
+@app.route('/documentary/')
 def documentary():
     return render_template('documentary.html', projects=DOCUMENTARIES)
 
-@app.route('/news-events')
+@app.route('/documentary/<project_id>/')
+def documentary_detail(project_id):
+    project = next((p for p in DOCUMENTARIES if p['id'] == project_id), None)
+    if not project:
+        return "Not found", 404
+    return render_template('project.html', project=project, back_url='/documentary/', back_label='Documentary')
+
+@app.route('/news-events/')
 def news_events():
     return render_template('news_events.html', projects=NEWS_EVENTS)
 
-@app.route('/press')
+@app.route('/news-events/<project_id>/')
+def news_event_detail(project_id):
+    project = next((p for p in NEWS_EVENTS if p['id'] == project_id), None)
+    if not project:
+        return "Not found", 404
+    return render_template('project.html', project=project, back_url='/news-events/', back_label='News & Events')
+
+@app.route('/press/')
 def press():
     return render_template('press.html', press_items=PRESS_ITEMS)
 
-@app.route('/projects/<project_id>')
-def project(project_id):
-    project = next((p for p in PROJECTS if p['id'] == project_id), None)
-    if not project:
-        return "Project not found", 404
-    return render_template('project.html', project=project)
-
-@app.route('/about')
+@app.route('/about/')
 def about():
     return render_template('about.html')
 

@@ -5,15 +5,15 @@
 {% block content %}
 <section class="project-detail">
     <div class="project-container">
-        <a href="/work" class="back-link">← Back to Work</a>
-        
+        <a href="{{ back_url }}" class="back-link">← Back to {{ back_label }}</a>
+
         <h1>{{ project.title }}</h1>
         <p class="project-description">{{ project.description }}</p>
-        
+
         <div class="video-container">
-            <iframe src="https://player.vimeo.com/video/{{ project.vimeo_id }}" 
-                    frameborder="0" 
-                    allow="autoplay; fullscreen; picture-in-picture" 
+            <iframe src="https://player.vimeo.com/video/{{ project.vimeo_id }}"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
                     allowfullscreen></iframe>
         </div>
     </div>

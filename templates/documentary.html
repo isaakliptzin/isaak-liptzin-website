@@ -7,11 +7,11 @@
     <h1>Documentary</h1>
     <div class="projects-grid">
         {% for project in projects %}
-        <a href="/projects/{{ project.id }}" class="project-card">
+        <a href="/documentary/{{ project.id }}/" class="project-card">
             <div class="project-thumbnail">
-                <iframe src="https://player.vimeo.com/video/{{ project.vimeo_id }}" 
-                        frameborder="0" 
-                        allow="autoplay; fullscreen; picture-in-picture" 
+                <iframe src="https://player.vimeo.com/video/{{ project.vimeo_id }}"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
                         allowfullscreen></iframe>
             </div>
             <h3>{{ project.title }}</h3>
