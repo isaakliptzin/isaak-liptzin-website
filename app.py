@@ -39,42 +39,42 @@ DOCUMENTARIES = [
         "title": "Elvira Notari: Beyond Silence",
         "meta": "2025 / 90'",
         "vimeo_id": "1125241996",
-        "description": "Between 1906 and 1930, Elvira Notari directed over 60 films from Naples — yet spent half a century erased from film history. This documentary recovers her legacy, tracing a singular voice working at the intersection of melodrama and Neapolitan street life."
+        "description": "Elvira Notari: Beyond Silence resurrects the legacy of Italy's first female director, a prolific pioneer whose Neapolitan silent films survived Fascist censorship and historical neglect to inspire a new generation of artists."
     },
     {
         "id": "doc2",
         "title": "Stonebreakers",
         "meta": "2022 / 70'",
         "vimeo_id": "726198300",
-        "description": "Shot during and after the 2020 uprisings, Stonebreakers surveys the nationwide fight over monuments to Confederate leaders, Columbus, and other contested figures — examining how Americans on all sides negotiate historical memory and the legacies of slavery and colonialism."
+        "description": "Stonebreakers chronicles the 2020 uprisings against U.S. monuments, interrogating the fall of national myths and the urgent link between historical memory and modern political action."
     },
     {
         "id": "doc3",
         "title": "If Only I Were That Warrior",
         "meta": "2015 / 72'",
         "vimeo_id": "84273170",
-        "description": "When an Italian village erected a monument to General Graziani — Mussolini's 'Butcher of Ethiopia' — it exposed a silence decades in the making. Following subjects across Italy, Ethiopia, and the U.S., the film examines a colonial past the country has never fully reckoned with."
+        "description": "If Only I Were That Warrior explores the unpunished war crimes of Italy's 1935 occupation of Ethiopia, tracing how a modern monument to a Fascist general reignites a painful legacy across the history of two nations and their diaspora."
     },
     {
         "id": "doc4",
         "title": "Mister Wonderland",
         "meta": "2019 / 53'",
         "vimeo_id": "366785314",
-        "description": "Born near Lucca, Sylvester Z. Poli emigrated to America and built a theater empire spanning more than 30 venues across the Northeast, booking legends from Houdini to Mae West — tracing the unlikely arc from immigrant artisan to powerful showman."
+        "description": "Mister Wonderland follows the journey of Sylvester Z. Poli, a humble artisan from Tuscany who emigrated to America to become the greatest theater impresario of his era, revealing how a migrant's ingenuity defined the modern movie-going experience."
     },
     {
         "id": "doc5",
         "title": "Iom Romì: A Day in Rome",
         "meta": "2017 / 30'",
         "vimeo_id": "240669126",
-        "description": "From dawn to dusk in Rome's ancient Ghetto, the film follows members of a community whose presence in the city stretches back to the age of the Empire — tracing what it means to be simultaneously Roman and Jewish today."
+        "description": "Iom Romì chronicles a day in the life of Rome's Jewish community, the city's oldest continuous cultural lineage, capturing the unique rituals and fierce independence of a people existing for centuries between persecution and integration."
     },
     {
         "id": "doc6",
         "title": "Treasure - The Story of Marcus Hook",
         "meta": "2013 / 20'",
         "vimeo_id": "152448505",
-        "description": "After the Sunoco refinery closed in 2011, Marcus Hook, Pennsylvania faced an uncertain future. The film follows a former refinery worker who unearthed what may be the home of Blackbeard's mistress — and channeled that discovery into a pirate festival that revived the town."
+        "description": "Treasure follows a Pennsylvania refinery town on the brink of collapse, where an unexpected discovery of pirate history sparks a quest for reinvention and explores what it means for a community to survive deindustrialization."
     }
 ]
 
