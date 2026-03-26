@@ -83,19 +83,19 @@ NEWS_EVENTS = [
     {
         "id": "ow1",
         "title": "First Team: Juventus",
-        "embed_url": "https://www.youtube.com/embed/VYAFpdgH8oo",
+        "embed_url": "https://www.youtube-nocookie.com/embed/VYAFpdgH8oo?rel=0&iv_load_policy=3&modestbranding=1",
         "description": "Netflix Originals"
     },
     {
         "id": "ow2",
         "title": "Undocumented During COVID-19",
-        "embed_url": "https://www.youtube.com/embed/HlCrudEfGFs",
+        "embed_url": "https://www.youtube-nocookie.com/embed/HlCrudEfGFs?rel=0&iv_load_policy=3&modestbranding=1",
         "description": "AJ+"
     },
     {
         "id": "ow3",
         "title": "The Mutation - Walking with Manzoni",
-        "embed_url": "https://www.youtube.com/embed/MD32CHm5UQU",
+        "embed_url": "https://www.youtube-nocookie.com/embed/MD32CHm5UQU?rel=0&iv_load_policy=3&modestbranding=1",
         "description": "NYU Casa Italiana Zerilli-Marimò"
     },
     {
@@ -119,7 +119,7 @@ NEWS_EVENTS = [
     {
         "id": "ow7",
         "title": "Statuesque",
-        "embed_url": "https://www.youtube.com/embed/Lm4ObZR7mc0",
+        "embed_url": "https://www.youtube-nocookie.com/embed/Lm4ObZR7mc0?rel=0&iv_load_policy=3&modestbranding=1",
         "description": "Italian Cultural Institute in DC"
     },
     {
@@ -137,7 +137,7 @@ NEWS_EVENTS = [
     {
         "id": "ow10",
         "title": "Re-Writing History",
-        "embed_url": "https://www.youtube.com/embed/9WPMpeMDJBQ",
+        "embed_url": "https://www.youtube-nocookie.com/embed/9WPMpeMDJBQ?rel=0&iv_load_policy=3&modestbranding=1",
         "description": "The Andrew Freedman Home"
     },
     {
