@@ -12,7 +12,7 @@ body {
     font-family: 'Avenir', 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #ffffff;
     color: #1a1a1a;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* Header & Navigation */
@@ -235,7 +235,7 @@ main {
 
 .about-content, .contact-info {
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.65;
     color: #333;
 }
 
@@ -422,7 +422,7 @@ main {
     color: #666;
     font-size: 16px;
     margin-bottom: 40px;
-    line-height: 1.8;
+    line-height: 1.65;
     max-width: 600px;
 }
 
@@ -553,7 +553,7 @@ footer {
 .press-desc {
     font-size: 14px;
     color: #666;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 @media (max-width: 768px) {
