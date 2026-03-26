@@ -180,7 +180,7 @@ PRESS_ITEMS = [
         "year": "2023",
         "title": "Stonebreakers Puts Monuments Under the Microscope",
         "url": "https://www.wbur.org/radioboston/2023/04/28/thanksgiving-christopher-columbus-native-americans",
-        "description": "Radio Boston segment on <em>Stonebreakers</em> and the debates surrounding monuments to Columbus, Mount Rushmore, and other contested American landmarks, featuring an interview with Isaak Liptzin."
+        "description": "Boston Public Radio segment on <em>Stonebreakers</em> and the debates surrounding monuments to Columbus, Mount Rushmore, and other contested American landmarks, featuring an interview with Isaak Liptzin."
     },
     {
         "outlet": "Bay State Banner",
@@ -262,9 +262,9 @@ PRESS_ITEMS = [
     {
         "outlet": "ArtsEmerson",
         "year": "2023",
-        "title": "Stonebreakers — Filmmaker Feature",
+        "title": "Stonebreakers — Boston Screening & Q&A",
         "url": "https://artsemerson.org/events/stonebreakers/",
-        "description": "Filmmaker profile accompanying the Boston theatrical run of <em>Stonebreakers</em>."
+        "description": "ArtsEmerson event page for the Boston theatrical run of <em>Stonebreakers</em>, with Isaak Liptzin and Valerio Ciriaci in attendance."
     },
     {
         "outlet": "La Voce di New York",
