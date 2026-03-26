@@ -15,7 +15,7 @@
                 <a href="{{ item.url }}" target="_blank" rel="noopener" class="press-title">
                     {{ item.title }}
                 </a>
-                <p class="press-desc">{{ item.description }}</p>
+                <p class="press-desc">{{ item.description | safe }}</p>
             </div>
         </div>
         {% endfor %}

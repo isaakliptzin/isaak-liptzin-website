@@ -39,42 +39,42 @@ DOCUMENTARIES = [
         "title": "Elvira Notari: Beyond Silence",
         "meta": "2025 / 90'",
         "vimeo_id": "1125241996",
-        "description": "Elvira Notari: Beyond Silence resurrects the legacy of Italy's first female director, a prolific pioneer whose Neapolitan silent films survived Fascist censorship and historical neglect to inspire a new generation of artists."
+        "description": "<em>Elvira Notari: Beyond Silence</em> resurrects the legacy of Italy's first female director, a prolific pioneer whose Neapolitan silent films survived Fascist censorship and historical neglect to inspire a new generation of artists."
     },
     {
         "id": "doc2",
         "title": "Stonebreakers",
         "meta": "2022 / 70'",
         "vimeo_id": "726198300",
-        "description": "Stonebreakers chronicles the 2020 uprisings against U.S. monuments, interrogating the fall of national myths and the urgent link between historical memory and modern political action."
+        "description": "<em>Stonebreakers</em> chronicles the 2020 uprisings against U.S. monuments, interrogating the fall of national myths and the urgent link between historical memory and modern political action."
     },
     {
         "id": "doc3",
         "title": "If Only I Were That Warrior",
         "meta": "2015 / 72'",
         "vimeo_id": "84273170",
-        "description": "If Only I Were That Warrior explores the unpunished war crimes of Italy's 1935 occupation of Ethiopia, tracing how a modern monument to a Fascist general reignites a painful legacy across the history of two nations and their diaspora."
+        "description": "<em>If Only I Were That Warrior</em> explores the unpunished war crimes of Italy's 1935 occupation of Ethiopia, tracing how a modern monument to a Fascist general reignites a painful legacy across the history of two nations and their diaspora."
     },
     {
         "id": "doc4",
         "title": "Mister Wonderland",
         "meta": "2019 / 53'",
         "vimeo_id": "366785314",
-        "description": "Mister Wonderland follows the journey of Sylvester Z. Poli, a humble artisan from Tuscany who emigrated to America to become the greatest theater impresario of his era, revealing how a migrant's ingenuity defined the modern movie-going experience."
+        "description": "<em>Mister Wonderland</em> follows the journey of Sylvester Z. Poli, a humble artisan from Tuscany who emigrated to America to become the greatest theater impresario of his era, revealing how a migrant's ingenuity defined the modern movie-going experience."
     },
     {
         "id": "doc5",
         "title": "Iom Romì: A Day in Rome",
         "meta": "2017 / 30'",
         "vimeo_id": "240669126",
-        "description": "Iom Romì chronicles a day in the life of Rome's Jewish community, the city's oldest continuous cultural lineage, capturing the unique rituals and fierce independence of a people existing for centuries between persecution and integration."
+        "description": "<em>Iom Romì</em> chronicles a day in the life of Rome's Jewish community, the city's oldest continuous cultural lineage, capturing the unique rituals and fierce independence of a people existing for centuries between persecution and integration."
     },
     {
         "id": "doc6",
         "title": "Treasure - The Story of Marcus Hook",
         "meta": "2013 / 20'",
         "vimeo_id": "152448505",
-        "description": "Treasure follows a Pennsylvania refinery town on the brink of collapse, where an unexpected discovery of pirate history sparks a quest for reinvention and explores what it means for a community to survive deindustrialization."
+        "description": "<em>Treasure</em> follows a Pennsylvania refinery town on the brink of collapse, where an unexpected discovery of pirate history sparks a quest for reinvention and explores what it means for a community to survive deindustrialization."
     }
 ]
 
@@ -236,7 +236,7 @@ PRESS_ITEMS = [
         "year": "2023",
         "title": "CWC Docs: Stonebreakers — Filmed Discussion",
         "url": "https://www.uctv.tv/shows/39636",
-        "description": "Recorded conversation in which Liptzin and Ciriaci discuss the origins of Stonebreakers, filming protests, and documentary's tension between history and memory."
+        "description": "Recorded conversation in which Liptzin and Ciriaci discuss the origins of <em>Stonebreakers</em>, filming protests, and documentary's tension between history and memory."
     },
     {
         "outlet": "BroadwayWorld",
@@ -250,7 +250,7 @@ PRESS_ITEMS = [
         "year": "2020",
         "title": "Mr. Wonderland: An Immigrant's Life Finally Rediscovered and Celebrated",
         "url": "https://lavocedinewyork.com/en/arts/2020/12/05/mr-wonderland-an-immigrants-life-finally-rediscovered-and-celebrated/",
-        "description": "Feature on the PBS/CPTV debut of Mister Wonderland, produced and shot by Liptzin, tracing the forgotten story of Italian-American showman S.Z. Poli."
+        "description": "Feature on the PBS/CPTV debut of <em>Mister Wonderland</em>, produced and shot by Liptzin, tracing the forgotten story of Italian-American showman S.Z. Poli."
     },
     {
         "outlet": "iItaly",
@@ -264,7 +264,7 @@ PRESS_ITEMS = [
         "year": "2018",
         "title": "Filmmaker Profile: Isaak Liptzin",
         "url": "https://jfilmbox.org/film-maker/isaak-liptzin/",
-        "description": "Career overview of Liptzin's work spanning WNYC photojournalism, Awen Films, RAI presidential coverage, and the Netflix series First Team: Juventus."
+        "description": "Career overview of Liptzin's work spanning WNYC photojournalism, Awen Films, RAI presidential coverage, and the Netflix series <em>First Team: Juventus</em>."
     },
     {
         "outlet": "Tadias Magazine",

@@ -13,7 +13,7 @@
                     allowfullscreen></iframe>
         </div>
         <h3>{{ featured.title }} <span class="project-meta">{{ featured.meta }}</span></h3>
-        <p>{{ featured.description }}</p>
+        <p>{{ featured.description | safe }}</p>
     </a>
     <div class="projects-grid">
         {% for project in projects[1:] %}
@@ -25,7 +25,7 @@
                         allowfullscreen></iframe>
             </div>
             <h3>{{ project.title }} <span class="project-meta">{{ project.meta }}</span></h3>
-            <p>{{ project.description }}</p>
+            <p>{{ project.description | safe }}</p>
         </a>
         {% endfor %}
     </div>
