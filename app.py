@@ -78,25 +78,91 @@ DOCUMENTARIES = [
     }
 ]
 
-# News & Events
+# Other Work
 NEWS_EVENTS = [
     {
-        "id": "news1",
-        "title": "Opera Italiana is in the Air - Washington DC 2024",
-        "vimeo_id": "954479835",
-        "description": "News/Event description"
+        "id": "ow1",
+        "title": "First Team: Juventus",
+        "embed_url": "https://www.youtube.com/embed/VYAFpdgH8oo",
+        "description": "Netflix Originals"
     },
     {
-        "id": "news2",
+        "id": "ow2",
+        "title": "Undocumented During COVID-19",
+        "embed_url": "https://www.youtube.com/embed/HlCrudEfGFs",
+        "description": "AJ+"
+    },
+    {
+        "id": "ow3",
+        "title": "The Mutation - Walking with Manzoni",
+        "embed_url": "https://www.youtube.com/embed/MD32CHm5UQU",
+        "description": "NYU Casa Italiana Zerilli-Marimò"
+    },
+    {
+        "id": "ow4",
+        "title": "Michael Kors F/W 2026",
+        "embed_url": "https://player.vimeo.com/video/1168594003",
+        "description": ""
+    },
+    {
+        "id": "ow5",
         "title": "The Batman of the Hudson",
-        "vimeo_id": "135837829",
-        "description": "News/Event description"
+        "embed_url": "https://player.vimeo.com/video/341674106",
+        "description": "MSNBC"
     },
     {
-        "id": "news3",
-        "title": "The Battle For New York Series",
-        "vimeo_id": "253910875",
-        "description": "News/Event description"
+        "id": "ow6",
+        "title": "Persisting Matters - Michael Rakowitz",
+        "embed_url": "https://player.vimeo.com/video/952025124?h=3e8a2777ed",
+        "description": "Center for Italian Modern Art"
+    },
+    {
+        "id": "ow7",
+        "title": "Statuesque",
+        "embed_url": "https://www.youtube.com/embed/Lm4ObZR7mc0",
+        "description": "Italian Cultural Institute in DC"
+    },
+    {
+        "id": "ow8",
+        "title": "Tracking the Tide",
+        "embed_url": "https://player.vimeo.com/video/1067887543?h=c69ac5b2a6",
+        "description": "Global Fishing Watch"
+    },
+    {
+        "id": "ow9",
+        "title": "Research and Conservation at The Met",
+        "embed_url": "https://player.vimeo.com/video/797136736?h=14fde35c7b",
+        "description": "Foreign Ministry of Italy"
+    },
+    {
+        "id": "ow10",
+        "title": "Re-Writing History",
+        "embed_url": "https://www.youtube.com/embed/9WPMpeMDJBQ",
+        "description": "The Andrew Freedman Home"
+    },
+    {
+        "id": "ow11",
+        "title": "Louis Vuitton Cruise 2019",
+        "embed_url": "https://player.vimeo.com/video/335912497",
+        "description": ""
+    },
+    {
+        "id": "ow12",
+        "title": "A Serenade at Sunset",
+        "embed_url": "https://player.vimeo.com/video/954479835?h=52aff22ae2",
+        "description": "Opera Italiana is in the Air"
+    },
+    {
+        "id": "ow13",
+        "title": "Ralph Lauren Fall 2026",
+        "embed_url": "https://player.vimeo.com/video/1168654185",
+        "description": ""
+    },
+    {
+        "id": "ow14",
+        "title": "I'm Counting on You, on Everyone",
+        "embed_url": "https://player.vimeo.com/video/199056338",
+        "description": "Centro Primo Levi"
     }
 ]
 
@@ -248,7 +314,7 @@ def news_event_detail(project_id):
     project = next((p for p in NEWS_EVENTS if p['id'] == project_id), None)
     if not project:
         return "Not found", 404
-    return render_template('project.html', project=project, back_url=url_for('news_events'), back_label='News & Events')
+    return render_template('project.html', project=project, back_url=url_for('news_events'), back_label='Other Work')
 
 @app.route('/media/')
 def press():
