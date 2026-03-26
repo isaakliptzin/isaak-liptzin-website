@@ -4,8 +4,7 @@
 
 {% block content %}
 <section class="work-section">
-    <h1>Films</h1>
-    {% set featured = projects[0] %}
+{% set featured = projects[0] %}
     <a href="/documentary/{{ featured.id }}/" class="project-card project-card--featured">
         <div class="project-thumbnail">
             <iframe src="https://player.vimeo.com/video/{{ featured.vimeo_id }}"
