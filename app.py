@@ -173,119 +173,140 @@ PRESS_ITEMS = [
         "year": "2025",
         "title": "'Elvira Notari: Beyond Silence' Acquired by First Hand Films Ahead of Venice Premiere",
         "url": "https://variety.com/2025/film/global/elvira-notari-beyond-silence-female-film-first-hand-venice-1236501705/",
-        "description": "Variety covers the world sales acquisition of Awen Films' documentary on Italy's first female director, co-produced and shot by Liptzin, premiering at the 82nd Venice International Film Festival."
+        "description": "Article detailing the world sales acquisition of <em>Elvira Notari: Beyond Silence</em> by First Hand Films ahead of its premiere at the 82nd Venice International Film Festival."
     },
     {
-        "outlet": "La Voce di New York",
-        "year": "2025",
-        "title": "Pioneer Woman Italian Director Elvira Notari Back from the Shadows at Venice 82",
-        "url": "https://lavocedinewyork.com/en/arts/2025/07/29/pioneer-woman-italian-director-elvira-notari-back-from-the-shadows-at-venice-82/",
-        "description": "Profile of the documentary premiering at Venice Classics, produced and shot by Liptzin alongside director Valerio Ciriaci for Awen Films."
-    },
-    {
-        "outlet": "L'Italo Americano",
-        "year": "2025",
-        "title": "The Forgotten Cinema of Elvira Notari",
-        "url": "https://italoamericano.org/elvira-notari-forgotten-cinema/",
-        "description": "Feature on the Venice-bound documentary, with references to Liptzin as co-founder of Awen Films and cinematographer on the project."
-    },
-    {
-        "outlet": "Venice Biennale Cinema",
-        "year": "2025",
-        "title": "Biennale Cinema 2025 — Elvira Notari: Beyond Silence (Official Selection)",
-        "url": "https://www.labiennale.org/en/cinema/2025/venice-classics/elvira-notari-oltre-il-silenzio",
-        "description": "Official Venice Film Festival listing for the documentary produced by Liptzin and Awen Films, selected for the Venice Classics section."
-    },
-    {
-        "outlet": "Katie at the Movies",
-        "year": "2025",
-        "title": "Venice 2025 Review: 'Elvira Notari: Beyond Silence'",
-        "url": "https://katieatthemovies.com/2025/09/03/venice-2025-elvira-notari-beyond-silence/",
-        "description": "Festival review of the documentary Liptzin co-produced and shot, praised for its engaging portrait of the forgotten silent-era pioneer."
+        "outlet": "WBUR",
+        "year": "2023",
+        "title": "Stonebreakers Puts Monuments Under the Microscope",
+        "url": "https://www.wbur.org/radioboston/2023/04/28/thanksgiving-christopher-columbus-native-americans",
+        "description": "Radio Boston segment on <em>Stonebreakers</em> and the debates surrounding monuments to Columbus, Mount Rushmore, and other contested American landmarks, featuring an interview with Isaak Liptzin."
     },
     {
         "outlet": "Bay State Banner",
         "year": "2023",
         "title": "'Stonebreakers' Chronicles Toppling of Controversial Monuments Against Backdrop of BLM Protests",
         "url": "https://baystatebanner.com/2023/04/26/stonebreakers-chronicles-toppling-of-controversial-monuments-against-backdrop-of-blm-protests/",
-        "description": "Interview with Liptzin and director Valerio Ciriaci ahead of the U.S. premiere at IFFBoston, covering the film's cross-country production."
+        "description": "Interview with Isaak Liptzin and director Valerio Ciriaci ahead of the U.S. premiere of <em>Stonebreakers</em> at IFFBoston, covering the film's cross-country production."
     },
     {
-        "outlet": "ArtsEmerson",
-        "year": "2023",
-        "title": "Stonebreakers — Filmmaker Feature",
-        "url": "https://artsemerson.org/events/stonebreakers/",
-        "description": "Filmmaker profile accompanying the Boston screening, detailing Liptzin's role as producer and cinematographer on the award-winning documentary."
-    },
-    {
-        "outlet": "Montclair State University",
-        "year": "2023",
-        "title": "Stonebreakers: Documentary Screening & Q&A with Valerio Ciriaci and Isaak J. Liptzin",
-        "url": "https://www.montclair.edu/inserra-chair/events/2023-24-events/stonebreakers/",
-        "description": "Inserra Chair event page for the Montclair State screening and post-film discussion with Liptzin and Ciriaci."
+        "outlet": "Venice Biennale Cinema",
+        "year": "2025",
+        "title": "Biennale Cinema 2025 — Elvira Notari: Beyond Silence (Official Selection)",
+        "url": "https://www.labiennale.org/en/cinema/2025/venice-classics/elvira-notari-oltre-il-silenzio",
+        "description": "Official Venice Film Festival listing for <em>Elvira Notari: Beyond Silence</em>, selected for the Venice Classics section."
     },
     {
         "outlet": "UC Santa Barbara / Carsey-Wolf Center",
         "year": "2023",
         "title": "CWC Docs: Stonebreakers — Screening & Discussion",
         "url": "https://www.carseywolf.ucsb.edu/pollock-events/stonebreakers/",
-        "description": "Post-screening discussion event with Liptzin and Ciriaci at UC Santa Barbara, moderated by Stephanie Malia Hom."
+        "description": "Post-screening Q&A with Isaak Liptzin and Valerio Ciriaci at UC Santa Barbara, moderated by Stephanie Malia Hom."
     },
     {
-        "outlet": "UCTV",
+        "outlet": "La Voce di New York",
+        "year": "2025",
+        "title": "Pioneer Woman Italian Director Elvira Notari Back from the Shadows at Venice 82",
+        "url": "https://lavocedinewyork.com/en/arts/2025/07/29/pioneer-woman-italian-director-elvira-notari-back-from-the-shadows-at-venice-82/",
+        "description": "Profile of <em>Elvira Notari: Beyond Silence</em> ahead of its Venice Classics premiere."
+    },
+    {
+        "outlet": "L'Italo Americano",
+        "year": "2025",
+        "title": "The Forgotten Cinema of Elvira Notari",
+        "url": "https://italoamericano.org/elvira-notari-forgotten-cinema/",
+        "description": "Feature on <em>Elvira Notari: Beyond Silence</em> ahead of its Venice premiere."
+    },
+    {
+        "outlet": "Katie at the Movies",
+        "year": "2025",
+        "title": "Venice 2025 Review: 'Elvira Notari: Beyond Silence'",
+        "url": "https://katieatthemovies.com/2025/09/03/venice-2025-elvira-notari-beyond-silence/",
+        "description": "Festival review of <em>Elvira Notari: Beyond Silence</em> from the Venice premiere."
+    },
+    {
+        "outlet": "YES! Magazine",
+        "year": "2024",
+        "title": "Monumental Shifts",
+        "url": "https://www.yesmagazine.org/issue/truth/2024/09/04/monumental-shifts",
+        "description": "Feature tracing how Isaak Liptzin and Valerio Ciriaci expanded <em>Stonebreakers</em> from a Columbus-focused project into a broader examination of contested monuments following the 2020 uprisings."
+    },
+    {
+        "outlet": "Princeton University",
+        "year": "2024",
+        "title": "Screening of 'Stonebreakers' by Valerio Ciriaci",
+        "url": "https://fit.princeton.edu/events/screening-stonebreakers-valerio-ciriaci",
+        "description": "Screening of <em>Stonebreakers</em> at Princeton's Department of French and Italian, followed by a Q&A with Isaak Liptzin, Valerio Ciriaci, and Princeton professor Kinohi Nishikawa."
+    },
+    {
+        "outlet": "University of Cambridge",
+        "year": "2024",
+        "title": "'Stonebreakers' Screening — Award-Winning Documentary on Conflicts Over Monuments",
+        "url": "https://www.english.cam.ac.uk/news/archives/8231",
+        "description": "Screening of <em>Stonebreakers</em> at the University of Cambridge Faculty of English, followed by a discussion with the filmmakers."
+    },
+    {
+        "outlet": "Video Librarian",
+        "year": "2024",
+        "title": "Stonebreakers — Documentary Review",
+        "url": "https://videolibrarian.com/reviews/documentary/the-stonebreakers/",
+        "description": "Trade review of <em>Stonebreakers</em>, examining the film's portrait of contested monuments and the communities calling for historical reckoning."
+    },
+    {
+        "outlet": "Montclair State University",
         "year": "2023",
-        "title": "CWC Docs: Stonebreakers — Filmed Discussion",
-        "url": "https://www.uctv.tv/shows/39636",
-        "description": "Recorded conversation in which Liptzin and Ciriaci discuss the origins of <em>Stonebreakers</em>, filming protests, and documentary's tension between history and memory."
+        "title": "Stonebreakers: Documentary Screening & Q&A with Valerio Ciriaci and Isaak J. Liptzin",
+        "url": "https://www.montclair.edu/inserra-chair/events/2023-24-events/stonebreakers/",
+        "description": "Event page for the Montclair State screening and Q&A with Isaak Liptzin and Valerio Ciriaci."
     },
     {
-        "outlet": "BroadwayWorld",
-        "year": "2022",
-        "title": "Palace Theater Waterbury Presents Free Screening of MISTER WONDERLAND",
-        "url": "https://www.broadwayworld.com/connecticut/article/Palace-Theater-Waterbury-Presents-Free-Movie-Screening-Of-MISTER-WONDERLAND-20220113",
-        "description": "Coverage of the Connecticut screening of Liptzin's documentary on Italian-American theater magnate S.Z. Poli."
+        "outlet": "ArtsEmerson",
+        "year": "2023",
+        "title": "Stonebreakers — Filmmaker Feature",
+        "url": "https://artsemerson.org/events/stonebreakers/",
+        "description": "Filmmaker profile accompanying the Boston theatrical run of <em>Stonebreakers</em>."
     },
     {
         "outlet": "La Voce di New York",
         "year": "2020",
         "title": "Mr. Wonderland: An Immigrant's Life Finally Rediscovered and Celebrated",
         "url": "https://lavocedinewyork.com/en/arts/2020/12/05/mr-wonderland-an-immigrants-life-finally-rediscovered-and-celebrated/",
-        "description": "Feature on the PBS/CPTV debut of <em>Mister Wonderland</em>, produced and shot by Liptzin, tracing the forgotten story of Italian-American showman S.Z. Poli."
+        "description": "Feature on the PBS/CPTV debut of <em>Mister Wonderland</em>, tracing the forgotten story of Italian-American showman S.Z. Poli."
+    },
+    {
+        "outlet": "BroadwayWorld",
+        "year": "2022",
+        "title": "Palace Theater Waterbury Presents Free Screening of MISTER WONDERLAND",
+        "url": "https://www.broadwayworld.com/connecticut/article/Palace-Theater-Waterbury-Presents-Free-Movie-Screening-Of-MISTER-WONDERLAND-20220113",
+        "description": "Coverage of a free screening of <em>Mister Wonderland</em> at the Palace Theater Waterbury, Connecticut."
     },
     {
         "outlet": "iItaly",
         "year": "2018",
         "title": "Iom Romì (A Day in Rome) Debuts for an American Audience",
         "url": "http://www.iitaly.org/magazine/focus/art-culture/article/iom-romi-day-in-rome-debuts-american-audience",
-        "description": "Review and Q&A recap of the New York Jewish Film Festival screening; Liptzin speaks about producing the short documentary on Rome's Jewish community."
+        "description": "Review and Q&A recap from the New York Jewish Film Festival screening of <em>Iom Romì</em>, with Isaak Liptzin discussing the film's production."
     },
     {
         "outlet": "JFilmBox",
         "year": "2018",
         "title": "Filmmaker Profile: Isaak Liptzin",
         "url": "https://jfilmbox.org/film-maker/isaak-liptzin/",
-        "description": "Career overview of Liptzin's work spanning WNYC photojournalism, Awen Films, RAI presidential coverage, and the Netflix series <em>First Team: Juventus</em>."
+        "description": "Career profile of Isaak Liptzin spanning WNYC photojournalism, Awen Films, RAI presidential coverage, and the Netflix series <em>First Team: Juventus</em>."
     },
     {
         "outlet": "Tadias Magazine",
         "year": "2016",
         "title": "Interview with the Director & Producer of 'If Only I Were That Warrior'",
         "url": "http://www.tadias.com/05/23/2016/interview-with-the-director-producer-of-if-only-i-were-that-warrior/",
-        "description": "In-depth interview with Liptzin and director Ciriaci on making the Italian Golden Globe–winning documentary about the Graziani monument controversy."
-    },
-    {
-        "outlet": "Tadias Magazine",
-        "year": "2016",
-        "title": "Ethiopia–Italy Film 'If Only I Were That Warrior' Released on DVD",
-        "url": "http://www.tadias.com/11/14/2016/ethiopia-film-on-italy-rise-of-fascism-if-only-i-were-that-warrior-on-dvd/",
-        "description": "Coverage of the DVD and streaming release of the documentary, quoting Liptzin on the film's goal of raising awareness about Italian historical revisionism."
+        "description": "In-depth interview with Isaak Liptzin and Valerio Ciriaci on making the Italian Golden Globe–winning documentary about the Graziani monument controversy."
     },
     {
         "outlet": "WNYC",
         "year": "2015",
         "title": "Isaak Liptzin — Contributor, WNYC New York Public Radio",
         "url": "https://www.wnyc.org/people/isaak-liptzin/",
-        "description": "Liptzin's byline page at WNYC, where he contributed photojournalism on NYC housing, arts, and culture including Times Square student art and MTA musicians."
+        "description": "Isaak Liptzin's contributor page at WNYC, where he covered NYC housing, arts, and culture."
     }
 ]
 
