@@ -95,7 +95,7 @@ NEWS_EVENTS = [
     {
         "id": "ow3",
         "title": "The Mutation - Walking with Manzoni",
-        "embed_url": "https://www.youtube-nocookie.com/embed/MD32CHm5UQU?rel=0&iv_load_policy=3&modestbranding=1",
+        "embed_url": "https://player.vimeo.com/video/768088983?h=de7fe3c61e",
         "description": "NYU Casa Italiana Zerilli-Marimò"
     },
     {
@@ -107,7 +107,7 @@ NEWS_EVENTS = [
     {
         "id": "ow5",
         "title": "The Batman of the Hudson",
-        "embed_url": "https://player.vimeo.com/video/341674106",
+        "embed_url": "https://player.vimeo.com/video/135837829",
         "description": "MSNBC"
     },
     {
