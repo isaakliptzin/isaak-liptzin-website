@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ project.title }} - Isaak Liptzin{% endblock %}
+{% block title %}{{ project.title }} - Isaak J. Liptzin{% endblock %}
 
 {% block content %}
 <section class="project-detail">
@@ -10,7 +10,7 @@
         <h1>{{ project.title }}</h1>
         <p class="project-description">{{ project.description }}</p>
 
-        <div class="video-container">
+        <div class="video-container" {% if project.aspect_ratio %}style="aspect-ratio: {{ project.aspect_ratio }}"{% endif %}>
             <iframe src="https://player.vimeo.com/video/{{ project.vimeo_id }}"
                     frameborder="0"
                     allow="autoplay; fullscreen; picture-in-picture"

@@ -5,20 +5,20 @@
 }
 
 :root {
-    --accent: #D4622A;
+    --accent: #d13d50;
 }
 
 body {
     font-family: 'Avenir', 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #ffffff;
-    color: #1a1a1a;
+    background-color: #1a1c1b;
+    color: #EFF1F3;
     line-height: 1.5;
 }
 
 /* Header & Navigation */
 header {
-    background-color: #ffffff;
-    border-bottom: 3px solid var(--accent);
+    background-color: #1a1c1b;
+    border-bottom: 1px solid var(--accent);
     padding: 20px 0;
     position: sticky;
     top: 0;
@@ -42,7 +42,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: 700;
-    color: #000;
+    color: #EFF1F3;
     text-decoration: none;
     letter-spacing: -0.5px;
 }
@@ -61,7 +61,7 @@ header {
 }
 
 .nav-icon {
-    color: #666;
+    color: #a0aeac;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
@@ -84,7 +84,7 @@ header {
 }
 
 .nav-links a {
-    color: #666;
+    color: #a0aeac;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -99,7 +99,7 @@ header {
 
 .nav-links a.active {
     color: var(--accent);
-    border-bottom: 2px solid var(--accent);
+    border-bottom: 1px solid var(--accent);
     padding-bottom: 5px;
 }
 
@@ -131,7 +131,7 @@ main {
     font-size: clamp(36px, 8vw, 72px);
     font-weight: 700;
     margin-bottom: 10px;
-    color: #000000;
+    color: #EFF1F3;
     letter-spacing: 2px;
     line-height: 1;
 }
@@ -148,7 +148,7 @@ main {
 
 .subtitle {
     font-size: clamp(16px, 3vw, 24px);
-    color: #666;
+    color: #a0aeac;
     margin-bottom: 40px;
     font-weight: 300;
 }
@@ -172,7 +172,7 @@ main {
 
 .reel-caption {
     font-size: 12px;
-    color: #888;
+    color: #7a8e8c;
     margin-top: 8px;
 }
 
@@ -198,7 +198,7 @@ main {
 
 .cta a:hover {
     background-color: var(--accent);
-    color: #fff;
+    color: #EFF1F3;
     transform: translateY(-2px);
 }
 
@@ -212,7 +212,7 @@ main {
     margin-bottom: 40px;
     font-weight: 700;
     letter-spacing: -1px;
-    border-bottom: 3px solid var(--accent);
+    border-bottom: 1px solid var(--accent);
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -228,7 +228,7 @@ main {
     margin-bottom: 30px;
     font-weight: 700;
     letter-spacing: -1px;
-    border-bottom: 3px solid var(--accent);
+    border-bottom: 1px solid var(--accent);
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -236,7 +236,7 @@ main {
 .about-content, .contact-info {
     font-size: 16px;
     line-height: 1.65;
-    color: #333;
+    color: #EFF1F3;
 }
 
 .about-content h2 {
@@ -259,7 +259,7 @@ main {
 
 .about-content p, .contact-info p {
     margin-bottom: 15px;
-    color: #666;
+    color: #a0aeac;
 }
 
 .contact-info ul {
@@ -279,7 +279,7 @@ main {
 }
 
 .contact-info a:hover {
-    color: #000;
+    color: #EFF1F3;
 }
 
 /* Featured project card */
@@ -319,11 +319,11 @@ main {
     font-size: 26px;
     margin-bottom: 8px;
     font-weight: 700;
-    color: #000;
+    color: #EFF1F3;
 }
 
 .project-card--featured p {
-    color: #666;
+    color: #a0aeac;
     font-size: 15px;
     max-width: 700px;
 }
@@ -370,18 +370,18 @@ main {
     font-size: 18px;
     margin-bottom: 8px;
     font-weight: 700;
-    color: #000;
+    color: #EFF1F3;
 }
 
 .project-meta {
     font-size: 13px;
     font-weight: 400;
-    color: #999;
+    color: #7a8e8c;
     margin-left: 6px;
 }
 
 .project-card p {
-    color: #666;
+    color: #a0aeac;
     font-size: 14px;
 }
 
@@ -408,7 +408,7 @@ main {
 }
 
 .back-link:hover {
-    color: #000;
+    color: #EFF1F3;
 }
 
 .project-detail h1 {
@@ -419,7 +419,7 @@ main {
 }
 
 .project-description {
-    color: #666;
+    color: #a0aeac;
     font-size: 16px;
     margin-bottom: 40px;
     line-height: 1.65;
@@ -439,8 +439,8 @@ main {
 
 /* Footer */
 footer {
-    background-color: #f8f8f8;
-    border-top: 3px solid var(--accent);
+    background-color: #111312;
+    border-top: 1px solid var(--accent);
     padding: 40px 20px;
     margin-top: 60px;
 }
@@ -452,7 +452,7 @@ footer {
 }
 
 .footer-content p {
-    color: #666;
+    color: #a0aeac;
     font-size: 14px;
     margin-bottom: 15px;
 }
@@ -464,7 +464,7 @@ footer {
 }
 
 .social-links a {
-    color: #666;
+    color: #a0aeac;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s;
@@ -487,7 +487,7 @@ footer {
     margin-bottom: 40px;
     font-weight: 700;
     letter-spacing: -1px;
-    border-bottom: 3px solid var(--accent);
+    border-bottom: 1px solid var(--accent);
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -503,7 +503,7 @@ footer {
     grid-template-columns: 130px 1fr;
     gap: 30px;
     padding: 30px 0;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #1a3332;
     align-items: flex-start;
 }
 
@@ -527,7 +527,7 @@ footer {
 
 .press-year {
     font-size: 12px;
-    color: #999;
+    color: #7a8e8c;
     font-weight: 500;
 }
 
@@ -540,7 +540,7 @@ footer {
 .press-title {
     font-size: 18px;
     font-weight: 700;
-    color: #000;
+    color: #EFF1F3;
     text-decoration: none;
     line-height: 1.4;
     transition: color 0.3s;
@@ -552,7 +552,7 @@ footer {
 
 .press-desc {
     font-size: 14px;
-    color: #666;
+    color: #a0aeac;
     line-height: 1.5;
 }
 

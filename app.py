@@ -39,6 +39,7 @@ DOCUMENTARIES = [
         "title": "Elvira Notari: Beyond Silence",
         "meta": "2025 / 90'",
         "vimeo_id": "1125241996",
+        "aspect_ratio": "1999/1080",
         "description": "<em>Elvira Notari: Beyond Silence</em> resurrects the legacy of Italy's first female director, a prolific pioneer whose Neapolitan silent films survived Fascist censorship and historical neglect to inspire a new generation of artists."
     },
     {
@@ -52,7 +53,7 @@ DOCUMENTARIES = [
         "id": "doc3",
         "title": "If Only I Were That Warrior",
         "meta": "2015 / 72'",
-        "vimeo_id": "84273170",
+        "vimeo_id": "189690319",
         "description": "<em>If Only I Were That Warrior</em> explores the unpunished war crimes of Italy's 1935 occupation of Ethiopia, tracing how a modern monument to a Fascist general reignites a painful legacy across the history of two nations and their diaspora."
     },
     {

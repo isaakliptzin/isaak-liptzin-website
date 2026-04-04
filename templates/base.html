@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Isaak Liptzin{% endblock %}</title>
+    <title>{% block title %}Isaak J. Liptzin{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 </head>
@@ -11,12 +11,12 @@
     <header>
         <nav class="navbar">
             <div class="nav-container">
-                <a href="{{ url_for('index') }}" class="logo">Isaak Liptzin</a>
+                <a href="{{ url_for('index') }}" class="logo">Isaak J. Liptzin</a>
                 <ul class="nav-links">
                     <li><a href="{{ url_for('index') }}" {% if request.endpoint == 'index' %}class="active"{% endif %}>Home</a></li>
                     <li><a href="{{ url_for('documentary') }}" {% if request.endpoint == 'documentary' %}class="active"{% endif %}>Films</a></li>
                     <li><a href="{{ url_for('news_events') }}" {% if request.endpoint == 'news_events' %}class="active"{% endif %}>Other Work</a></li>
-                    <li><a href="{{ url_for('press') }}" {% if request.endpoint == 'press' %}class="active"{% endif %}>Media</a></li>
+                    <li><a href="{{ url_for('press') }}" {% if request.endpoint == 'press' %}class="active"{% endif %}>Press</a></li>
                     <li><a href="{{ url_for('about') }}" {% if request.endpoint == 'about' %}class="active"{% endif %}>About</a></li>
                 </ul>
                 <div class="nav-social">
@@ -44,7 +44,7 @@
 
     <footer>
         <div class="footer-content">
-            <p>&copy; 2026 Isaak Liptzin</p>
+            <p>&copy; 2026 Isaak J. Liptzin</p>
             <div class="social-links">
                 <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
                 <a href="mailto:contact@example.com">Email</a>
