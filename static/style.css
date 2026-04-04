@@ -262,6 +262,15 @@ main {
     color: #a0aeac;
 }
 
+.about-content a {
+    color: #6aabcf;
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    color: #8fc4e0;
+}
+
 .contact-info ul {
     list-style: none;
     margin-top: 20px;
