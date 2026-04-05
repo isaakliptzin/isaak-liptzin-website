@@ -40,8 +40,8 @@ header {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 19px;
+    font-weight: 500;
     color: #EFF1F3;
     text-decoration: none;
     letter-spacing: -0.5px;
@@ -122,16 +122,16 @@ main {
 .hero-container {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
     max-width: 1200px;
     width: 100%;
 }
 
 .hero-container h1 {
-    font-size: clamp(36px, 8vw, 72px);
+    font-size: clamp(28px, 5.5vw, 54px);
     font-weight: 700;
     margin-bottom: 10px;
-    color: #EFF1F3;
+    color: var(--accent);
     letter-spacing: 2px;
     line-height: 1;
 }
@@ -139,6 +139,9 @@ main {
 .hero-left {
     flex: 0 0 auto;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .hero-right {
@@ -147,10 +150,14 @@ main {
 }
 
 .subtitle {
-    font-size: clamp(16px, 3vw, 24px);
+    font-size: clamp(9px, 1.3vw, 12px);
     color: #a0aeac;
     margin-bottom: 40px;
-    font-weight: 300;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
 }
 
 .reel-container {
@@ -174,6 +181,7 @@ main {
     font-size: 12px;
     color: #7a8e8c;
     margin-top: 8px;
+    text-align: right;
 }
 
 .cta {
@@ -219,8 +227,27 @@ main {
 
 /* About & Contact Sections */
 .about-section, .contact-section {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+.about-container {
+    padding-top: 40px;
+}
+
+.about-photo {
+    float: right;
+    width: 220px;
+    margin: 0 0 24px 36px;
+    border-radius: 2px;
+    display: block;
+}
+
+@media (max-width: 640px) {
+    .about-photo {
+        width: 140px;
+        margin: 0 0 16px 24px;
+    }
 }
 
 .about-section h1, .contact-section h1 {
