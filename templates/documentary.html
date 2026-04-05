@@ -4,21 +4,10 @@
 
 {% block content %}
 <section class="work-section">
-{% set featured = projects[0] %}
-    <a href="/documentary/{{ featured.id }}/" class="project-card project-card--featured">
-        <div class="project-thumbnail" {% if featured.aspect_ratio %}style="aspect-ratio: {{ featured.aspect_ratio }}"{% endif %}>
-            <iframe src="https://player.vimeo.com/video/{{ featured.vimeo_id }}"
-                    frameborder="0"
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowfullscreen></iframe>
-        </div>
-        <h3>{{ featured.title }} <span class="project-meta">{{ featured.meta }}</span></h3>
-        <p>{{ featured.description | safe }}</p>
-    </a>
     <div class="projects-grid">
-        {% for project in projects[1:] %}
+        {% for project in projects %}
         <a href="/documentary/{{ project.id }}/" class="project-card">
-            <div class="project-thumbnail" {% if project.aspect_ratio %}style="aspect-ratio: {{ project.aspect_ratio }}"{% endif %}>
+            <div class="project-thumbnail">
                 <iframe src="https://player.vimeo.com/video/{{ project.vimeo_id }}"
                         frameborder="0"
                         allow="autoplay; fullscreen; picture-in-picture"

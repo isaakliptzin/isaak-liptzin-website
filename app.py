@@ -40,42 +40,42 @@ DOCUMENTARIES = [
         "meta": "2025 / 90'",
         "vimeo_id": "1125241996",
         "aspect_ratio": "1999/1080",
-        "description": "<em>Elvira Notari: Beyond Silence</em> resurrects the legacy of Italy's first female director, a prolific pioneer whose Neapolitan silent films survived Fascist censorship and historical neglect to inspire a new generation of artists."
+        "description": "A resurrection of the legacy of Italy's first female director, a prolific pioneer whose Neapolitan silent films survived Fascist censorship and historical neglect to inspire a new generation of artists."
     },
     {
         "id": "doc2",
         "title": "Stonebreakers",
         "meta": "2022 / 70'",
         "vimeo_id": "726198300",
-        "description": "<em>Stonebreakers</em> chronicles the 2020 uprisings against U.S. monuments, interrogating the fall of national myths and the urgent link between historical memory and modern political action."
+        "description": "A chronicle of the 2020 uprisings against U.S. monuments, interrogating the fall of national myths and the urgent link between historical memory and modern political action."
     },
     {
         "id": "doc3",
         "title": "If Only I Were That Warrior",
         "meta": "2015 / 72'",
         "vimeo_id": "189690319",
-        "description": "<em>If Only I Were That Warrior</em> explores the unpunished war crimes of Italy's 1935 occupation of Ethiopia, tracing how a modern monument to a Fascist general reignites a painful legacy across the history of two nations and their diaspora."
+        "description": "An exploration of the unpunished war crimes of Italy's 1935 occupation of Ethiopia, tracing how a modern monument to a Fascist general reignites a painful legacy across the history of two nations and their diaspora."
     },
     {
         "id": "doc4",
         "title": "Mister Wonderland",
         "meta": "2019 / 53'",
         "vimeo_id": "366785314",
-        "description": "<em>Mister Wonderland</em> follows the journey of Sylvester Z. Poli, a humble artisan from Tuscany who emigrated to America to become the greatest theater impresario of his era, revealing how a migrant's ingenuity defined the modern movie-going experience."
+        "description": "The story of Sylvester Z. Poli, a humble artisan from Tuscany who emigrated to America to become the greatest theater impresario of his era, revealing how a migrant's ingenuity defined the modern movie-going experience."
     },
     {
         "id": "doc5",
         "title": "Iom Romì: A Day in Rome",
         "meta": "2017 / 30'",
         "vimeo_id": "240669126",
-        "description": "<em>Iom Romì</em> chronicles a day in the life of Rome's Jewish community, the city's oldest continuous cultural lineage, capturing the unique rituals and fierce independence of a people existing for centuries between persecution and integration."
+        "description": "A portrait of a single day in the life of Rome's Jewish community, the city's oldest continuous cultural lineage, capturing the unique rituals and fierce independence of a people existing for centuries between persecution and integration."
     },
     {
         "id": "doc6",
         "title": "Treasure - The Story of Marcus Hook",
         "meta": "2013 / 20'",
         "vimeo_id": "152448505",
-        "description": "<em>Treasure</em> follows a Pennsylvania refinery town on the brink of collapse, where an unexpected discovery of pirate history sparks a quest for reinvention and explores what it means for a community to survive deindustrialization."
+        "description": "A Pennsylvania refinery town on the brink of collapse, where an unexpected discovery of pirate history sparks a quest for reinvention — and raises the question of what it means for a community to survive deindustrialization."
     }
 ]
 
