@@ -170,11 +170,11 @@ NEWS_EVENTS = [
 # Press items
 PRESS_ITEMS = [
     {
-        "outlet": "Variety",
-        "year": "2025",
-        "title": "'Elvira Notari: Beyond Silence' Acquired by First Hand Films Ahead of Venice Premiere",
-        "url": "https://variety.com/2025/film/global/elvira-notari-beyond-silence-female-film-first-hand-venice-1236501705/",
-        "description": "Article detailing the world sales acquisition of <em>Elvira Notari: Beyond Silence</em> by First Hand Films ahead of its premiere at the 82nd Venice International Film Festival."
+        "outlet": "The Guardian",
+        "year": "2026",
+        "title": "'An orgiastic pandemonium': Elvira Notari, the 'low-life cinema' pioneer erased by fascism",
+        "url": "https://www.theguardian.com/film/2026/apr/06/elvira-notari-beyond-silence-first-female-italian-film-director-fascism-mussolini-censorship",
+        "description": "Guardian feature on <em>Elvira Notari: Beyond Silence</em> and its New York premiere at Film Forum, tracing how Italy's first female director depicted the gritty street life of early 20th-century Naples and was targeted by Mussolini's censors."
     },
     {
         "outlet": "WBUR",
@@ -182,6 +182,13 @@ PRESS_ITEMS = [
         "title": "Stonebreakers Puts Monuments Under the Microscope",
         "url": "https://www.wbur.org/radioboston/2023/04/28/thanksgiving-christopher-columbus-native-americans",
         "description": "Boston Public Radio segment on <em>Stonebreakers</em> and the debates surrounding monuments to Columbus, Mount Rushmore, and other contested American landmarks, featuring an interview with Isaak Liptzin."
+    },
+    {
+        "outlet": "Variety",
+        "year": "2025",
+        "title": "'Elvira Notari: Beyond Silence' Acquired by First Hand Films Ahead of Venice Premiere",
+        "url": "https://variety.com/2025/film/global/elvira-notari-beyond-silence-female-film-first-hand-venice-1236501705/",
+        "description": "Article detailing the world sales acquisition of <em>Elvira Notari: Beyond Silence</em> by First Hand Films ahead of its premiere at the 82nd Venice International Film Festival."
     },
     {
         "outlet": "Bay State Banner",
