@@ -5,20 +5,20 @@
 {% block content %}
 <section class="hero">
     <div class="hero-container">
-        <div class="hero-left">
-            <h1>Isaak<br/>Liptzin</h1>
-            <p class="subtitle">Cinematographer<br/>&amp; Producer</p>
-            <p class="cta"><a href="/documentary/">View Work →</a></p>
-        </div>
-        <div class="hero-right">
-            <div class="reel-container">
-                <iframe src="https://player.vimeo.com/video/{{ reel_vimeo_id }}?portrait=0&title=0&byline=0"
-                        frameborder="0" 
-                        allow="autoplay; fullscreen; picture-in-picture" 
-                        allowfullscreen></iframe>
+        <div class="hero-header">
+            <div class="hero-left">
+                <h1>Isaak<br/>Liptzin</h1>
+                <p class="subtitle">Cinematographer<br/>&amp; Producer</p>
             </div>
-            <p class="reel-caption">Documentary cinematography reel</p>
+            <p class="cta"><a href="/documentary/"><span>View</span><span>Work</span></a></p>
         </div>
+        <div class="reel-container">
+            <iframe src="https://player.vimeo.com/video/{{ reel_vimeo_id }}?portrait=0&title=0&byline=0"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+        <p class="reel-caption">Documentary cinematography reel</p>
     </div>
 </section>
 {% endblock %}
