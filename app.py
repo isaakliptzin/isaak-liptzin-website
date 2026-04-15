@@ -338,6 +338,10 @@ def documentary_detail(project_id):
 def news_events():
     return render_template('news_events.html', projects=NEWS_EVENTS)
 
+@app.route('/interview-setups/')
+def interview_setups():
+    return render_template('interview_setups.html')
+
 @app.route('/news-events/<project_id>/')
 def news_event_detail(project_id):
     project = next((p for p in NEWS_EVENTS if p['id'] == project_id), None)
