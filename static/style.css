@@ -240,7 +240,7 @@ main {
 
 .about-photo {
     float: right;
-    width: 220px;
+    width: 297px;
     margin: 0 0 24px 36px;
     border-radius: 2px;
     display: block;
@@ -248,7 +248,7 @@ main {
 
 @media (max-width: 640px) {
     .about-photo {
-        width: 140px;
+        width: 189px;
         margin: 0 0 16px 24px;
     }
 }
