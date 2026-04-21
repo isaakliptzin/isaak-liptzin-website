@@ -744,9 +744,9 @@ footer {
     }
 }
 
-/* Disable iframe pointer events in project cards so taps navigate to the project page */
-.project-card .project-thumbnail iframe,
-.project-card--featured .project-thumbnail iframe {
+/* Disable iframe pointer events only on linked cards so taps navigate to the project page */
+a.project-card .project-thumbnail iframe,
+a.project-card--featured .project-thumbnail iframe {
     pointer-events: none;
 }
 
