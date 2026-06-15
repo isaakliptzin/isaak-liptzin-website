@@ -334,7 +334,7 @@ def documentary_detail(project_id):
         return "Not found", 404
     return render_template('project.html', project=project, back_url=url_for('documentary'), back_label='Films')
 
-@app.route('/news-events/')
+@app.route('/other-work/')
 def news_events():
     return render_template('news_events.html', projects=NEWS_EVENTS)
 
@@ -342,7 +342,7 @@ def news_events():
 def interview_setups():
     return render_template('interview_setups.html')
 
-@app.route('/news-events/<project_id>/')
+@app.route('/other-work/<project_id>/')
 def news_event_detail(project_id):
     project = next((p for p in NEWS_EVENTS if p['id'] == project_id), None)
     if not project:
