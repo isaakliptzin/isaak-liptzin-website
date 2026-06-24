@@ -191,6 +191,13 @@ PRESS_ITEMS = [
         "description": "Article detailing the world sales acquisition of <em>Elvira Notari: Beyond Silence</em> by First Hand Films ahead of its premiere at the 82nd Venice International Film Festival."
     },
     {
+        "outlet": "Gothamist",
+        "year": "2023",
+        "title": "Columbus Circle and the explorer make star turns in film screening in Brooklyn",
+        "url": "https://gothamist.com/news/columbus-circle-and-the-explorer-make-star-turns-in-film-screening-in-brooklyn",
+        "description": "Gothamist article quoting filmmakers Isaak Liptzin and Valerio Ciriaci on <em>Stonebreakers</em>, coinciding with the film's New York premiere at Brooklyn Film Festival."
+    },
+    {
         "outlet": "Bay State Banner",
         "year": "2023",
         "title": "'Stonebreakers' Chronicles Toppling of Controversial Monuments Against Backdrop of BLM Protests",
