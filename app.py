@@ -38,6 +38,7 @@ DOCUMENTARIES = [
         "id": "doc1",
         "title": "Elvira Notari: Beyond Silence",
         "meta": "2025 / 90'",
+        "role": "Cinematographer, Producer & Post-Production Supervisor",
         "vimeo_id": "1125241996",
         "aspect_ratio": "1999/1080",
         "description": "A resurrection of the legacy of Italy's first female director, a prolific pioneer whose Neapolitan silent films survived Fascist censorship and historical neglect to inspire a new generation of artists."
@@ -46,6 +47,7 @@ DOCUMENTARIES = [
         "id": "doc2",
         "title": "Stonebreakers",
         "meta": "2022 / 70'",
+        "role": "Cinematographer, Producer & Post-Production Supervisor",
         "vimeo_id": "726198300",
         "description": "A chronicle of the 2020 uprisings against U.S. monuments, interrogating the fall of national myths and the urgent link between historical memory and modern political action."
     },
@@ -53,6 +55,7 @@ DOCUMENTARIES = [
         "id": "doc3",
         "title": "If Only I Were That Warrior",
         "meta": "2015 / 72'",
+        "role": "Cinematographer, Producer & Post-Production Supervisor",
         "vimeo_id": "189690319",
         "description": "An exploration of the unpunished war crimes of Italy's 1935 occupation of Ethiopia, tracing how a modern monument to a Fascist general reignites a painful legacy across the history of two nations and their diaspora."
     },
@@ -60,6 +63,7 @@ DOCUMENTARIES = [
         "id": "doc4",
         "title": "Mister Wonderland",
         "meta": "2019 / 53'",
+        "role": "Cinematographer & Post-Production Supervisor",
         "vimeo_id": "366785314",
         "description": "The story of Sylvester Z. Poli, a humble artisan from Tuscany who emigrated to America to become the greatest theater impresario of his era, revealing how a migrant's ingenuity defined the modern movie-going experience."
     },
@@ -67,6 +71,7 @@ DOCUMENTARIES = [
         "id": "doc5",
         "title": "Iom Romì: A Day in Rome",
         "meta": "2017 / 30'",
+        "role": "Cinematographer & Post-Production Supervisor",
         "vimeo_id": "240669126",
         "description": "A portrait of a single day in the life of Rome's Jewish community, the city's oldest continuous cultural lineage, capturing the unique rituals and fierce independence of a people existing for centuries between persecution and integration."
     },
@@ -74,6 +79,7 @@ DOCUMENTARIES = [
         "id": "doc6",
         "title": "Treasure - The Story of Marcus Hook",
         "meta": "2013 / 20'",
+        "role": "Cinematographer & Post-Production Supervisor",
         "vimeo_id": "152448505",
         "description": "A Pennsylvania refinery town on the brink of collapse, where an unexpected discovery of pirate history sparks a quest for reinvention — and raises the question of what it means for a community to survive deindustrialization."
     }
@@ -341,20 +347,24 @@ def documentary_detail(project_id):
         return "Not found", 404
     return render_template('project.html', project=project, back_url=url_for('documentary'), back_label='Films')
 
-@app.route('/other-work/')
+@app.route('/commissioned-editorial/')
 def news_events():
     return render_template('news_events.html', projects=NEWS_EVENTS)
+
+@app.route('/other-work/')
+def other_work_redirect():
+    return '<html><head><meta http-equiv="refresh" content="0;url=/commissioned-editorial/"><title>Redirecting...</title></head><body><a href="/commissioned-editorial/">Redirecting...</a></body></html>'
 
 @app.route('/interview-setups/')
 def interview_setups():
     return render_template('interview_setups.html')
 
-@app.route('/other-work/<project_id>/')
+@app.route('/commissioned-editorial/<project_id>/')
 def news_event_detail(project_id):
     project = next((p for p in NEWS_EVENTS if p['id'] == project_id), None)
     if not project:
         return "Not found", 404
-    return render_template('project.html', project=project, back_url=url_for('news_events'), back_label='Other Work')
+    return render_template('project.html', project=project, back_url=url_for('news_events'), back_label='Commissioned & Editorial')
 
 @app.route('/media/')
 def press():
